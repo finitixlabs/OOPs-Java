@@ -33,6 +33,7 @@ class Basics_classes{
 
         System.out.println("Branch name: "+Branch2.Branch_name);
         System.out.println("Cups sold: "+Branch2.Cups_sold);
+        
 
 }   
 }
