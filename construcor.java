@@ -4,9 +4,17 @@ class Shop{
 
     //constructor
     public Shop(String bn , int cs){
-        System.out.println("This is constructor");
+        /* System.out.println("This is constructor");
         System.out.println("Branch name: "+bn);
-        System.out.println("Cups sold: "+cs);
+        System.out.println("Cups sold: "+cs); */
+        Branch_name=bn;
+        Cups_sold=cs;
+    }
+    
+    //Display function
+    public void display(){
+        System.out.println("Branch name: "+Branch_name);
+        System.out.println("Cups sold: "+Cups_sold);
     }
 
     // method inside the class
@@ -20,7 +28,9 @@ public class construcor{
     public static void main(String[] args){
         //Object creation
         Shop Branch1 = new Shop("Tea Time" , 100);
+        Branch1.display();
         Shop Branch2 = new Shop("Tea Fun" , 600);
+        Branch2.display();
 }   
 }
 
