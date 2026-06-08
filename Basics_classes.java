@@ -2,7 +2,6 @@ class ChaiShop{
     String Branch_name;
     int Cups_sold;
     
-
     // method inside the class
     public void sample_method(){
         System.out.println("This is method inside the ChaiShop class");

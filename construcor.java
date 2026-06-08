@@ -26,7 +26,7 @@ class Shop{
 public class construcor{
     
     public static void main(String[] args){
-        //Object creation
+        //Object creation the constructor calls automaticall when object created.
         Shop Branch1 = new Shop("Tea Time" , 100);
         Branch1.display();
         Shop Branch2 = new Shop("Tea Fun" , 600);
