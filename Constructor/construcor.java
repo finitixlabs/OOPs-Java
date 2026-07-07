@@ -1,3 +1,5 @@
+package Constructor;
+
 class Shop{
     String Branch_name;
     int Cups_sold;
